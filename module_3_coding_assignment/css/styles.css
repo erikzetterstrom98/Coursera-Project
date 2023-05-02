@@ -1,0 +1,66 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+
+/* Header */
+.navbar-default {
+    background-color: #aaaaaa;
+    border: black 3px solid;
+    border-radius: 0;
+}
+.navbar-header {
+    margin: 10px;
+}
+.navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+.navbar-brand h1 { /* Food title */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    color: black;
+    font-size: 2.5em;
+    cursor: default;
+}
+
+.navbar-default .navbar-toggle { /* The toggle butotn. */
+    border-color: black;
+    border-width: 2px;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus-within { /* The toggle butotn. */
+    background-color: #888888;
+}
+
+.navbar-default .navbar-toggle .icon-bar { /* The "bars" on the button */
+    background-color: black;
+}
+
+#li-rows { /* The options in the toggle button.*/
+    border: 2px black solid;
+}
+
+#li-rows p {
+    margin: 0;
+}
+
+#page-header {
+    font-size: 2em;
+}
+
+.food-box {
+    background-color: #aaaaaa;
+    margin-bottom: 20px;
+}
+
+.row {
+    margin: 30px;
+}
+
+.food-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
